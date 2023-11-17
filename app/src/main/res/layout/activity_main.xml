@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Add TextViews to display the information -->
+    <TextView
+        android:id="@+id/java_version_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actual Java Version:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/app_version_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/java_version_textview"
+        android:layout_marginTop="16dp"
+        android:text="App Version:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/android_version_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_version_textview"
+        android:layout_marginTop="16dp"
+        android:text="Android Version:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/phone_model_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/android_version_textview"
+        android:layout_marginTop="16dp"
+        android:text="Phone Model:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/fingerprint_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_model_textview"
+        android:layout_marginTop="16dp"
+        android:text="SHA-256 Fingerprint:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/cpuModel_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_model_textview"
+        android:layout_marginTop="55dp"
+        android:text=":"
+        android:textSize="16sp" />>
+
+</RelativeLayout>
